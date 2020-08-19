@@ -18,7 +18,7 @@ function selectionSort(array){
   let sortedArray = [];
   
   while (array.length != 0) {
-    currentMin = minAndRemove(array);
+    currentMin = findMinAndRemove(array);
     sortedArray.push(currentMinMin);
   }
   
