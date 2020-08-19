@@ -19,7 +19,7 @@ function selectionSort(array){
   
   while (array.length != 0) {
     currentMin = findMinAndRemove(array);
-    sortedArray.push(currentMinMin);
+    sortedArray.push(currentMin);
   }
   
   return sortedArray;
