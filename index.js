@@ -9,7 +9,8 @@ function findMinAndRemove(array){
     }
   });
   
-  array.splice(minIdx, 1)
+  array.splice(minIdx, 1);
+  return currentMin;
 }
 
 function selectionSort(array){
