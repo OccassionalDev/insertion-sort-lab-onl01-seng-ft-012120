@@ -17,5 +17,7 @@ function selectionSort(array){
   let currentMin;
   let sortedArray = [];
   
-  while ()
+  while (array.length != 0) {
+    
+  }
 }
